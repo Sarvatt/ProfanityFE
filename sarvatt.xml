@@ -144,8 +144,8 @@
         <window class='indicator' top='lines-2' left='11' height='1' width='&hand-width;' value='left' ul='true'/>
         <window class='indicator' top='lines-2' left='11 + &hand-width;' height='1' width='2' label='R:' fg='&white;'/>
         <window class='indicator' top='lines-2' left='14 + &hand-width;' height='1' width='&hand-width;' value="right" ul='true'/>
-        <window class='indicator' top='lines-2' left='(8 + &hand-width; + 3)*2' height='1' width='2' label='S:' fg='&white;'/>
-        <window class='indicator' top='lines-2' left='(8 + &hand-width; + 3)*2' height='1' width='&hand-width;+5' value='spell'/>
+        <window class='indicator' top='lines-2' left='8 + (&hand-width; + 3)*2' height='1' width='2' label='S:' fg='&white;'/>
+        <window class='indicator' top='lines-2' left='11 + (&hand-width; + 3)*2' height='1' width='&hand-width;+5' value='spell'/>
 
         <window class='indicator' top='lines-1' left='34 + (&bar-width;*4) + 4' height='1' width='4' label='STUN' value='stunned' fg='888888,00ffff'/>
         <window class='indicator' top='lines-1' left='40 + (&bar-width;*4) + 4' height='1' width='3' label='PSN' value='poisoned' fg='888888,0000ff'/>
