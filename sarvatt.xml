@@ -31,14 +31,14 @@
     <highlight fg="&blue;">^\[Private(?:To)?\]</highlight>
     <highlight fg="&blue;">^--- Lich:.*</highlight>
 
-	<highlight fg='808000'>^Roundtime.*</highlight>
-	<highlight fg='808000'>^\[Roundtime.*</highlight>
-	<highlight fg='008080'>^Obvious (exit|path).*</highlight>
-	<highlight fg="&cyan;">You also see .*</highlight>
-	<highlight fg="&cyan;">^Also here:.*</highlight>
-	<highlight fg="&dark-red;">which appears dead</highlight>
-	<highlight fg="&red;">^.* backfire.*$</highlight>
-	<highlight fg="&red;">^You get an odd feeling that someone is.*</highlight>
+    <highlight fg='808000'>^Roundtime.*</highlight>
+    <highlight fg='808000'>^\[Roundtime.*</highlight>
+    <highlight fg='008080'>^Obvious (exit|path).*</highlight>
+    <highlight fg="&cyan;">You also see .*</highlight>
+    <highlight fg="&cyan;">^Also here:.*</highlight>
+    <highlight fg="&dark-red;">which appears dead</highlight>
+    <highlight fg="&red;">^.* backfire.*$</highlight>
+    <highlight fg="&red;">^You get an odd feeling that someone is.*</highlight>
     <highlight fg="&white;">[^\w]shard</highlight>
     <highlight fg="&white;">[^\w]arrow</highlight>
     <highlight fg="&white;">[^\w]bolt</highlight>
