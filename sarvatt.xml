@@ -131,9 +131,9 @@
     <key id='ctrl+3' macro='\x;e loop do waitfor("DECLINE"); fput("accept"); fput("stow right"); end'/>
     <key id='ctrl+4' macro='\x;e loop do start_script("update-shops",[""]); pause 60*60; end'/>
     <layout id='default'>
-        <window class='text' top='0' left='0' height='8' width='cols/3' value='lnet,thoughts,voln' buffer-size='1000' timestamp='true' log='true' />
-        <window class='text' top='0' left='cols/3' height='8' width='cols/3' value='talk,whispers' buffer-size='1000' timestamp='true' />
-        <window class='text' top='0' left='2*cols/3' height='8' width='cols/3' value='death,logons' buffer-size='1000' timestamp='true' log='true'/>
+        <window class='text' top='0' left='0' height='8' width='cols/3+10' value='lnet,thoughts,voln' buffer-size='1000' timestamp='true' log='true' />
+        <window class='text' top='0' left='(cols/3)+10' height='8' width='cols/3' value='talk,whispers' buffer-size='1000' timestamp='true' />
+        <window class='text' top='0' left='(2*cols/3)+10' height='8' width='(cols/3)-10' value='death,logons' buffer-size='1000' timestamp='true' log='true'/>
         <window class='text' top='10' left='0' width='cols-0' height='lines-13' value='main' buffer-size='3000' log='true' bg="&material-grey900;" />
 
         <window class='indicator' top='lines-3' left='8' height='1' width='1' label='&gt;' value='prompt' fg='ffff00,ffff00'/>
