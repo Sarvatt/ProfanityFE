@@ -37,7 +37,6 @@
 	<highlight fg="&cyan;">You also see .*</highlight>
 	<highlight fg="&cyan;">^Also here:.*</highlight>
 	<highlight fg="&dark-red;">which appears dead</highlight>
-	<highlight fg='808000'>^(?:Cast Roundtime 3 Seconds\.|Your spell is ready\.|Your targeting pattern\.)$</highlight>
 	<highlight fg="&red;">^.* backfire.*$</highlight>
 	<highlight fg="&red;">^You get an odd feeling that someone is.*</highlight>
     <highlight fg="&white;">[^\w]shard</highlight>
@@ -50,13 +49,19 @@
     <highlight fg="&magenta;">^.*best shot possible.*</highlight>
     <highlight fg="&red;">^You feel your pockets get slightly heavier.*</highlight>
     <highlight fg="&green;">^You feel the weakness imparted by your recent death slowly fade away.*</highlight>
-    <highlight fg="&green;">^You feel the weakness imparted by your recent death slowly fade away.*</highlight>
-    <highlight fg="&green;">^You feel the weakness imparted by your recent death slowly fade away.*</highlight>
     <highlight fg="&royal-purple;">^You feel a sudden warmth.*</highlight>
-    <highlight fg="&royal-purple;">^You feel a sudden warmth.*</highlight>
+    <highlight fg="&royal-purple;">^You feel a faint warmth.*</highlight>
+    <highlight fg="&royal-purple;">^The serpent earcuff coils, sensing your danger.*</highlight>
+    <highlight fg="&royal-purple;">^Your wooden medallion warms in response to your danger.*</highlight>
+    <highlight fg="&royal-purple;">^.*JOIN CHARCOAL DIRIGIBLE.*</highlight>
+    <highlight fg="&magenta;">\((?:calmed|dead|flying|hiding|kneeling|prone|sitting|sleeping|stunned)\)</highlight>
+    <highlight fg="&magenta;">.*ruining your hiding place\.$|^You are no longer hidden\.$|^\s*You are (?:stunned|knocked to the ground).*|^You are unable to remain hidden!$|^You are visible again\.$|^You fade into sight\.$|^You fade into view.*|^You feel drained!$|^You have overextended yourself!$|^You feel yourself going into shock!$</highlight>
+    <highlight fg="&magenta;">^.*(?:falls slack against the floor|falls slack against the ground|falls to the floor, motionless|falls to the ground dead|falls to the ground motionless|and dies|and lies still|goes still|going still)\.$</highlight>
+    <highlight fg="&magenta;">^.* is stunned!$|^You come out of hiding\.$</highlight>
+    <highlight fg="&magenta;">.*ruining your hiding place\.$|^You are no longer hidden\.$|^\s*You are (?:stunned|knocked to the ground).*|^You are unable to remain hidden!$|^You are visible again\.$|^You fade into sight\.$|^You fade into view.*|^You feel drained!$|^You have overextended yourself!$|^You feel yourself going into shock!$</highlight>
+    <highlight fg="&green;">^.*\*\*\*STATUS\*\*\*.*</highlight>
 
     <!--- Death Messages --> 
-    <highlight fg='ff5160'>^.*(?:slack against the floor|gurgles and falls|lets out a grating bellow|coughs up some blood|collapses into|eyes glaze over|falls to the floor|falls to the ground|and lies still|goes still|going still)\.$</highlight>
     
     <highlight fg="&dark-red;">^An armored warklin crumbles.*</highlight>
     <highlight fg="&dark-red;">^.*a grating bellow.*</highlight>
