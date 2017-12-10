@@ -1,4 +1,4 @@
-<!DOCTYPE highlight [ 
+<!DOCTYPE highlight [
   <!ENTITY material-green "1B5E20">
   <!ENTITY material-purple "311B92">
   <!ENTITY material-grey900 "212121">
@@ -26,6 +26,8 @@
     <highlight fg='c0c0c0'>^\[.*?\](?:>|&gt;).*$</highlight>
     <highlight fg='c0c0c0'>\([0-9][0-9]\:[0-9][0-9]\:[0-9][0-9]\)$</highlight>
     <highlight fg="&green;">^\[DRPrime\]</highlight>
+    <highlight fg="&yellow;">^\[General\]</highlight>
+    <highlight fg="&yellow;">^\[Trade\]</highlight>
     <highlight fg="&yellow;">^\[code\]</highlight>
     <highlight fg="&yellow;">^\[drscripts\]</highlight>
     <highlight fg="&blue;">^\[Private(?:To)?\]</highlight>
@@ -141,8 +143,8 @@
         <window class='text' top='0' left='(cols/3)+20' height='8' width='(cols/3)' value='talk,whispers' buffer-size='1000' timestamp='true' />
         <window class='text' top='0' left='(2*cols/3)+20' height='8' width='(cols/3)-20' value='death,logons' buffer-size='1000' timestamp='true' log='true'/>
 
-        <window class='indicator' top='lines-3' left='8' height='1' width='1' label='&gt;' value='prompt' fg='ffff00,ffff00'/>
-        <window class='command' top='lines-3' left='10' width='cols-90' height='1' />
+        <window class='indicator' top='lines-3' left='9' height='1' width='4' label='&gt;' value='prompt' fg='ffff00,ffff00'/>
+        <window class='command' top='lines-3' left='14' width='cols' height='1' />
 
         <!-- above bottom bar layout -->
         <window class='indicator' top='lines-2' left='8' height='1' width='2' label='L:' fg='&white;'/>
