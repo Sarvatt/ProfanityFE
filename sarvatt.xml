@@ -41,9 +41,6 @@
     <highlight fg="&dark-red;">which appears dead</highlight>
     <highlight fg="&red;">^.* backfire.*$</highlight>
     <highlight fg="&red;">^You get an odd feeling that someone is.*</highlight>
-    <highlight fg="&white;">[^\w]shard</highlight>
-    <highlight fg="&white;">[^\w]arrow</highlight>
-    <highlight fg="&white;">[^\w]bolt</highlight>
     <highlight fg="&magenta;">^Your formation of a targeting pattern.*</highlight>
     <highlight fg="&magenta;">^You leap out of hiding.*</highlight>
     <highlight fg="&magenta;">^.*position yourself behind.*</highlight>
@@ -77,9 +74,6 @@
     <highlight fg="&dark-red;">^.*one last time and collapses.*</highlight>
     <highlight fg="&dark-red;">^A storm bull expires.*</highlight> 
 
-    <highlight fg="&white;">^You begin chanting a mantra.*</highlight>
-    <highlight fg="&white;">^You trace a.*</highlight>
-
     <!-- Character Name Highlights-->
     <highlight fg="&royal-purple;">[Ee]mbrace</highlight>
     <highlight fg="&monokai-magenta;">[Ss]arvatt</highlight>
@@ -92,6 +86,23 @@
     <highlight fg="&royal-purple;">[Aa]shenrose</highlight>
     <highlight fg="&royal-purple;">[Tt]apestryrose</highlight>
     <highlight fg="&royal-purple;">[Ss]onettrose</highlight>
+    <highlight fg="&royal-purple;">[Mm]orninglight</highlight>
+    <highlight fg="&monokai-magenta;">[Ff]lixx</highlight>
+    <highlight fg="&monokai-magenta;">[Tt]yesha</highlight>
+
+    <!-- PEOPLE --> 
+    <highlight fg="&blue;">[^\w]Fahijeck</highlight>
+    <highlight fg="&blue;">[^\w]Moriora</highlight>
+    <highlight fg="&blue;">[^\w]Zehira</highlight>
+    <highlight fg="&blue;">[^\w]Cayra</highlight>
+    <highlight fg="&blue;">[^\w]Jondong</highlight>
+    <highlight fg="&blue;">[^\w]Nidaeya</highlight> 
+    <highlight fg="&blue;">[^\w]Artilius</highlight>
+    <highlight fg="&blue;">[^\w]Issidos</highlight>
+    <highlight fg="&blue;">[^\w]Gander</highlight>
+    <highlight fg="&blue;">[^\w]Annieka</highlight>
+    <highlight fg="&blue;">[^\w]Aumaru</highlight>
+
     <!-- Script commands sent to game-->
     <highlight fg='584848'>^\[[\w-]+\]></highlight>
     <preset id='whisper' fg="&yellow;"/>
