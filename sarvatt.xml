@@ -53,6 +53,7 @@
     <highlight fg="&royal-purple;">^The serpent earcuff coils, sensing your danger.*</highlight>
     <highlight fg="&royal-purple;">^Your wooden medallion warms in response to your danger.*</highlight>
     <highlight fg="&royal-purple;">^.*JOIN CHARCOAL DIRIGIBLE.*</highlight>
+    <highlight fg="&royal-purple;">^.*just recovered a rare item from the Grey Raven attackers.*</highlight>
     <highlight fg="&magenta;">\((?:calmed|dead|flying|hiding|kneeling|prone|sitting|sleeping|stunned)\)</highlight>
     <highlight fg="&magenta;">.*ruining your hiding place\.$|^You are no longer hidden\.$|^\s*You are (?:stunned|knocked to the ground).*|^You are unable to remain hidden!$|^You are visible again\.$|^You fade into sight\.$|^You fade into view.*|^You feel drained!$|^You have overextended yourself!$|^You feel yourself going into shock!$</highlight>
     <highlight fg="&magenta;">^.*(?:falls slack against the floor|falls slack against the ground|falls to the floor, motionless|falls to the ground dead|falls to the ground motionless|and dies|and lies still|goes still|going still)\.$</highlight>
@@ -75,22 +76,37 @@
     <highlight fg="&dark-red;">^A storm bull expires.*</highlight> 
 
     <!-- Character Name Highlights-->
-    <highlight fg="&royal-purple;">[Ee]mbrace</highlight>
     <highlight fg="&monokai-magenta;">[Ss]arvatt</highlight>
     <highlight fg="&monokai-magenta;">[Ss]erature</highlight>
     <highlight fg="&royal-purple;">[Ss]ilvryn</highlight>
-    <highlight fg="&monokai-magenta;">[Tt]hevelar</highlight>
-    <highlight fg="&monokai-magenta;">[Vv]ichrae</highlight>
+    <highlight fg="&royal-purple;">[Ee]mbrace</highlight>
     <highlight fg="&royal-purple;">[Ss]erennade</highlight>
-    <highlight fg="&royal-purple;">[Ss]ilhouette</highlight>
+    <highlight fg="&royal-purple;">[Ss]ilhouete</highlight>
     <highlight fg="&royal-purple;">[Aa]shenrose</highlight>
     <highlight fg="&royal-purple;">[Tt]apestryrose</highlight>
     <highlight fg="&royal-purple;">[Ss]onettrose</highlight>
     <highlight fg="&royal-purple;">[Mm]orninglight</highlight>
-    <highlight fg="&monokai-magenta;">[Ff]lixx</highlight>
-    <highlight fg="&monokai-magenta;">[Tt]yesha</highlight>
+    <highlight fg="&royal-purple;">[Cc]elestialle</highlight>
+    <highlight fg="&royal-purple;">[Oo]livvia</highlight>
+    <highlight fg="&royal-purple;">[Tt]empesst</highlight>
+    <highlight fg="&green;">[Tt]hevelar</highlight>
+    <highlight fg="&green;">[Ff]lixx</highlight>
+    <highlight fg="&green;">[Tt]yesha</highlight>
+    <highlight fg="&green;">[Ss]olire</highlight>
+    <highlight fg="&green;">[Zz]asana</highlight>
+    <highlight fg="&yellow;">[Mm]align</highlight>
+    <highlight fg="&yellow;">[Ww]yrt</highlight>
+    <highlight fg="&yellow;">[Ee]dahla</highlight>
+    <highlight fg="&yellow;">[Kk]yrla</highlight>
+    <highlight fg="&yellow;">[Dd]ulcinia</highlight>
+    <highlight fg="&yellow;">[Vv]ichrae</highlight>
+    <highlight fg="&yellow;">[Jj]aessa</highlight>
+    <highlight fg="&yellow;">[Ss]olancera</highlight>
+    <highlight fg="&yellow;">[Ss]aulthor</highlight>
+    <highlight fg="&yellow;">[Cc]harlize</highlight>
+    <highlight fg="&yellow;">[Tt]illmen</highlight>
 
-    <!-- PEOPLE --> 
+    <!-- Trolls --> 
     <highlight fg="&blue;">[^\w]Fahijeck</highlight>
     <highlight fg="&blue;">[^\w]Moriora</highlight>
     <highlight fg="&blue;">[^\w]Zehira</highlight>
