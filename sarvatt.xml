@@ -78,8 +78,11 @@
     <!-- Character Name Highlights-->
     <highlight fg="&monokai-magenta;">[Ss]arvatt</highlight>
     <highlight fg="&monokai-magenta;">[Ss]erature</highlight>
+    <highlight fg="&monokai-magenta;">[Ee]ngorged</highlight>
+    <highlight fg="&monokai-magenta;">[Cc]hilling</highlight>
     <highlight fg="&royal-purple;">[Ss]ilvryn</highlight>
     <highlight fg="&royal-purple;">[Ee]mbrace</highlight>
+    <highlight fg="&royal-purple;">[Ww]arming</highlight>
     <highlight fg="&royal-purple;">[Ss]erennade</highlight>
     <highlight fg="&royal-purple;">[Ss]ilhouete</highlight>
     <highlight fg="&royal-purple;">[Aa]shenrose</highlight>
@@ -94,6 +97,9 @@
     <highlight fg="&green;">[Tt]yesha</highlight>
     <highlight fg="&green;">[Ss]olire</highlight>
     <highlight fg="&green;">[Zz]asana</highlight>
+    <highlight fg="&yellow;">[Aa]tanamir</highlight>
+    <highlight fg="&yellow;">[Tt]horn</highlight>
+    <highlight fg="&yellow;">[Rr]emigius</highlight>
     <highlight fg="&yellow;">[Mm]align</highlight>
     <highlight fg="&yellow;">[Ww]yrt</highlight>
     <highlight fg="&yellow;">[Ee]dahla</highlight>
@@ -104,20 +110,22 @@
     <highlight fg="&yellow;">[Ss]olancera</highlight>
     <highlight fg="&yellow;">[Ss]aulthor</highlight>
     <highlight fg="&yellow;">[Cc]harlize</highlight>
+    <highlight fg="&yellow;">[Bb]arder</highlight>
+    <highlight fg="&yellow;">[Aa]urayn</highlight>
     <highlight fg="&yellow;">[Tt]illmen</highlight>
 
     <!-- Trolls --> 
-    <highlight fg="&blue;">[^\w]Fahijeck</highlight>
-    <highlight fg="&blue;">[^\w]Moriora</highlight>
-    <highlight fg="&blue;">[^\w]Zehira</highlight>
-    <highlight fg="&blue;">[^\w]Cayra</highlight>
-    <highlight fg="&blue;">[^\w]Jondong</highlight>
-    <highlight fg="&blue;">[^\w]Nidaeya</highlight> 
-    <highlight fg="&blue;">[^\w]Artilius</highlight>
-    <highlight fg="&blue;">[^\w]Issidos</highlight>
-    <highlight fg="&blue;">[^\w]Gander</highlight>
-    <highlight fg="&blue;">[^\w]Annieka</highlight>
-    <highlight fg="&blue;">[^\w]Aumaru</highlight>
+    <highlight fg="&blue;">[Ff]ahijeck</highlight>
+    <highlight fg="&blue;">[Mm]oriora</highlight>
+    <highlight fg="&blue;">[Zz]ehira</highlight>
+    <highlight fg="&blue;">[Cc]ayra</highlight>
+    <highlight fg="&blue;">[Jj]ondong</highlight>
+    <highlight fg="&blue;">[Nn]idaeya</highlight> 
+    <highlight fg="&blue;">[Aa]rtilius</highlight>
+    <highlight fg="&blue;">[Ii]ssidos</highlight>
+    <highlight fg="&blue;">[Gg]ander</highlight>
+    <highlight fg="&blue;">[Aa]nnieka</highlight>
+    <highlight fg="&blue;">[Aa]umaru</highlight>
 
     <!-- Script commands sent to game-->
     <highlight fg='584848'>^\[[\w-]+\]></highlight>
