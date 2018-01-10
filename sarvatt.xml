@@ -92,6 +92,7 @@
     <highlight fg="&royal-purple;">[Cc]elestialle</highlight>
     <highlight fg="&royal-purple;">[Oo]livvia</highlight>
     <highlight fg="&royal-purple;">[Tt]empesst</highlight>
+    <highlight fg="&royal-purple;">[Ww]hoochie</highlight>
     <highlight fg="&green;">[Tt]hevelar</highlight>
     <highlight fg="&green;">[Ff]lixx</highlight>
     <highlight fg="&green;">[Tt]yesha</highlight>
@@ -106,13 +107,38 @@
     <highlight fg="&yellow;">[Kk]yrla</highlight>
     <highlight fg="&yellow;">[Dd]ulcinia</highlight>
     <highlight fg="&yellow;">[Vv]ichrae</highlight>
+    <highlight fg="&yellow;">[Aa]narathiel</highlight>
     <highlight fg="&yellow;">[Jj]aessa</highlight>
     <highlight fg="&yellow;">[Ss]olancera</highlight>
     <highlight fg="&yellow;">[Ss]aulthor</highlight>
     <highlight fg="&yellow;">[Cc]harlize</highlight>
     <highlight fg="&yellow;">[Bb]arder</highlight>
     <highlight fg="&yellow;">[Aa]urayn</highlight>
+    <highlight fg="&yellow;">[Aa]treall</highlight>
+    <highlight fg="&yellow;">[Ss]pookay</highlight>
+    <highlight fg="&yellow;">[Mm]saia</highlight>
+    <highlight fg="&yellow;">[Gg]allifreius</highlight>
+    <highlight fg="&yellow;">[Rr]emedi</highlight>
+    <highlight fg="&yellow;">[Rr]hoslyn</highlight>
     <highlight fg="&yellow;">[Tt]illmen</highlight>
+    <highlight fg="&yellow;">[Bb]eeya</highlight>
+    <highlight fg="&yellow;">[Aa]nnandale</highlight>
+    <highlight fg="&yellow;">[Mm]ilanie</highlight>
+    <highlight fg="&yellow;">[Bb]inu</highlight>
+    <highlight fg="&yellow;">[Cc]huno</highlight>
+    <highlight fg="&yellow;">[Mm]elbourne</highlight>
+    <highlight fg="&yellow;">[Ss]sarek</highlight>
+    <highlight fg="&yellow;">[Yy]ndass</highlight>
+    <highlight fg="&yellow;">[Nn]atarian</highlight>
+    <highlight fg="&yellow;">[Nn]arash</highlight>
+    <highlight fg="&yellow;">[Nn]atheras</highlight>
+    <highlight fg="&yellow;">[Cc]rannach</highlight>
+    <highlight fg="&yellow;">[Jj]onas</highlight>
+    <highlight fg="&yellow;">[Rr]iphik</highlight>
+    <highlight fg="&yellow;">[Gg]iulietta</highlight>
+    <highlight fg="&yellow;">[Gg]abellia</highlight>
+    <highlight fg="&yellow;">[Ss]heltim</highlight>
+    <highlight fg="&yellow;">[Mm]ajorly</highlight>
 
     <!-- Trolls --> 
     <highlight fg="&blue;">[Ff]ahijeck</highlight>
