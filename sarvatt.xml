@@ -80,6 +80,8 @@
     <highlight fg="&monokai-magenta;">[Ss]erature</highlight>
     <highlight fg="&monokai-magenta;">[Ee]ngorged</highlight>
     <highlight fg="&monokai-magenta;">[Cc]hilling</highlight>
+    <highlight fg="&monokai-magenta;">[Vv]une</highlight>
+    <highlight fg="&monokai-magenta;">[Mm]uten</highlight>
     <highlight fg="&royal-purple;">[Ss]ilvryn</highlight>
     <highlight fg="&royal-purple;">[Ee]mbrace</highlight>
     <highlight fg="&royal-purple;">[Ww]arming</highlight>
@@ -93,6 +95,7 @@
     <highlight fg="&royal-purple;">[Oo]livvia</highlight>
     <highlight fg="&royal-purple;">[Tt]empesst</highlight>
     <highlight fg="&royal-purple;">[Ww]hoochie</highlight>
+    <highlight fg="&royal-purple;">[Ss]atin</highlight>
     <highlight fg="&green;">[Tt]hevelar</highlight>
     <highlight fg="&green;">[Ff]lixx</highlight>
     <highlight fg="&green;">[Tt]yesha</highlight>
@@ -101,6 +104,7 @@
     <highlight fg="&yellow;">[Aa]tanamir</highlight>
     <highlight fg="&yellow;">[Tt]horn</highlight>
     <highlight fg="&yellow;">[Rr]emigius</highlight>
+    <highlight fg="&yellow;">[Jj]orvald</highlight>
     <highlight fg="&yellow;">[Mm]align</highlight>
     <highlight fg="&yellow;">[Ww]yrt</highlight>
     <highlight fg="&yellow;">[Ee]dahla</highlight>
@@ -140,6 +144,20 @@
     <highlight fg="&yellow;">[Ss]heltim</highlight>
     <highlight fg="&yellow;">[Mm]ajorly</highlight>
     <highlight fg="&yellow;">[Ee]verics</highlight>
+    <highlight fg="&yellow;">[Aa]rtinos</highlight>
+    <highlight fg="&yellow;">[Ff]lyntt</highlight>
+    <highlight fg="&yellow;">[Tt]alinel</highlight>
+    <highlight fg="&yellow;">[Mm]issah</highlight>
+    <highlight fg="&yellow;">[Ee]thun</highlight>
+    <highlight fg="&yellow;">[Ff]eltzer</highlight>
+    <highlight fg="&yellow;">[Ee]zzra</highlight>
+    <highlight fg="&yellow;">[Gg]igondas</highlight>
+    <highlight fg="&yellow;">[Rr]isima</highlight>
+    <highlight fg="&yellow;">[Jj]hien</highlight>
+    <highlight fg="&yellow;">[Mm]elduran</highlight>
+    <highlight fg="&yellow;">[Kk]erizon</highlight>
+    <highlight fg="&yellow;">[Aa]radar</highlight>
+    <highlight fg="&yellow;">[Ll]eustyin</highlight>
 
     <!-- Trolls --> 
     <highlight fg="&blue;">[Ff]ahijeck</highlight>
@@ -203,10 +221,10 @@
         <window class='text' top='10' left='0' width='cols-0' height='lines-13' value='main' buffer-size='3000' log='true' bg="&black;" />
         <window class='text' top='0' left='0' height='8' width='(cols/3)+20' value='lnet,thoughts,voln' buffer-size='1000' timestamp='true' log='true' />
         <window class='text' top='0' left='(cols/3)+20' height='8' width='(cols/3)' value='talk,whispers' buffer-size='1000' timestamp='true' />
-        <window class='text' top='0' left='(2*cols/3)+20' height='8' width='(cols/3)-20' value='death,logons' buffer-size='1000' timestamp='true' log='true'/>
+        <window class='text' top='0' left='(2*cols/3)+20' height='8' width='(cols/3)-20' value='death,logons' buffer-size='1000' log='true'/>
 
         <window class='indicator' top='lines-3' left='9' height='1' width='4' label='&gt;' value='prompt' fg='ffff00,ffff00'/>
-        <window class='command' top='lines-3' left='14' width='cols' height='1' />
+        <window class='command' top='lines-3' left='14' width='cols-14' height='1' />
 
         <!-- above bottom bar layout -->
         <window class='indicator' top='lines-2' left='8' height='1' width='2' label='L:' fg='&white;'/>
