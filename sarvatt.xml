@@ -160,17 +160,17 @@
     <highlight fg="&yellow;">[Ll]eustyin</highlight>
 
     <!-- Trolls --> 
-    <highlight fg="&blue;">[Ff]ahijeck</highlight>
-    <highlight fg="&blue;">[Mm]oriora</highlight>
-    <highlight fg="&blue;">[Zz]ehira</highlight>
-    <highlight fg="&blue;">[Cc]ayra</highlight>
-    <highlight fg="&blue;">[Jj]ondong</highlight>
-    <highlight fg="&blue;">[Nn]idaeya</highlight> 
-    <highlight fg="&blue;">[Aa]rtilius</highlight>
-    <highlight fg="&blue;">[Ii]ssidos</highlight>
-    <highlight fg="&blue;">[Gg]ander</highlight>
-    <highlight fg="&blue;">[Aa]nnieka</highlight>
-    <highlight fg="&blue;">[Aa]umaru</highlight>
+    <highlight fg="&red;">[Ff]ahijeck</highlight>
+    <highlight fg="&red;">[Mm]oriora</highlight>
+    <highlight fg="&red;">[Zz]ehira</highlight>
+    <highlight fg="&red;">[Cc]ayra</highlight>
+    <highlight fg="&red;">[Jj]ondong</highlight>
+    <highlight fg="&red;">[Nn]idaeya</highlight> 
+    <highlight fg="&red;">[Aa]rtilius</highlight>
+    <highlight fg="&red;">[Ii]ssidos</highlight>
+    <highlight fg="&red;">[Gg]ander</highlight>
+    <highlight fg="&red;">[Aa]nnieka</highlight>
+    <highlight fg="&red;">[Aa]umaru</highlight>
 
     <!-- Script commands sent to game-->
     <highlight fg='584848'>^\[[\w-]+\]></highlight>
