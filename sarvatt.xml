@@ -77,7 +77,6 @@
 
     <!-- Character Name Highlights-->
     <highlight fg="&monokai-magenta;">[Ss]arvatt</highlight>
-    <highlight fg="&monokai-magenta;">[Ss]erature</highlight>
     <highlight fg="&monokai-magenta;">[Ee]ngorged</highlight>
     <highlight fg="&monokai-magenta;">[Cc]hilling</highlight>
     <highlight fg="&monokai-magenta;">[Vv]une</highlight>
@@ -220,17 +219,17 @@
     <layout id='default'>
         <window class='text' top='10' left='0' width='cols-0' height='lines-13' value='main' buffer-size='3000' log='true' bg="&black;" />
         <window class='text' top='0' left='0' height='8' width='(cols/3)+20' value='lnet,thoughts,voln' buffer-size='1000' timestamp='true' log='true' />
-        <window class='text' top='0' left='(cols/3)+20' height='8' width='(cols/3)' value='talk,whispers' buffer-size='1000' timestamp='true' />
-        <window class='text' top='0' left='(2*cols/3)+20' height='8' width='(cols/3)-20' value='death,logons' buffer-size='1000' log='true'/>
+        <window class='text' top='0' left='(cols/3)+20' height='8' width='(cols/3)' value='talk,whispers,ooc' buffer-size='1000' timestamp='true' />
+        <window class='text' top='0' left='(2*cols/3)+20' height='8' width='(cols/3)-20' value='death,logons' buffer-size='1000' timestamp='true' log='true'/>
 
-        <window class='indicator' top='lines-3' left='9' height='1' width='4' label='&gt;' value='prompt' fg='ffff00,ffff00'/>
-        <window class='command' top='lines-3' left='14' width='cols-14' height='1' />
+        <window class='indicator' top='lines-3' left='8' height='1' width='1' label='&gt;' value='prompt' fg='ffff00,ffff00'/>
+        <window class='command' top='lines-3' left='10' width='cols-10' height='1' />
 
         <!-- above bottom bar layout -->
         <window class='indicator' top='lines-2' left='8' height='1' width='2' label='L:' fg='&white;'/>
-        <window class='indicator' top='lines-2' left='11' height='1' width='&hand-width;' value='left' ul='true'/>
+        <window class='indicator' top='lines-2' left='11' height='1' width='&hand-width;' value='left'/>
         <window class='indicator' top='lines-2' left='13 + &hand-width;' height='1' width='2' label='R:' fg='&white;'/>
-        <window class='indicator' top='lines-2' left='16 + &hand-width;' height='1' width='&hand-width;' value="right" ul='true'/>
+        <window class='indicator' top='lines-2' left='16 + &hand-width;' height='1' width='&hand-width;' value="right" />
         <window class='indicator' top='lines-2' left='13 + (&hand-width; + 3)*2' height='1' width='2' label='S:' fg='&white;'/>
         <window class='indicator' top='lines-2' left='16 + (&hand-width; + 3)*2' height='1' width='2*&hand-width;' value='spell'/>
 
