@@ -28,6 +28,7 @@
     <highlight fg="&green;">^\[DRPrime\]</highlight>
     <highlight fg="&yellow;">^\[General\]</highlight>
     <highlight fg="&yellow;">^\[Trade\]</highlight>
+    <highlight fg="&yellow;">^\[Local\]</highlight>
     <highlight fg="&yellow;">^\[code\]</highlight>
     <highlight fg="&yellow;">^\[drscripts\]</highlight>
     <highlight fg="&blue;">^\[Private(?:To)?\]</highlight>
@@ -60,6 +61,7 @@
     <highlight fg="&magenta;">^.* is stunned!$|^You come out of hiding\.$</highlight>
     <highlight fg="&magenta;">.*ruining your hiding place\.$|^You are no longer hidden\.$|^\s*You are (?:stunned|knocked to the ground).*|^You are unable to remain hidden!$|^You are visible again\.$|^You fade into sight\.$|^You fade into view.*|^You feel drained!$|^You have overextended yourself!$|^You feel yourself going into shock!$</highlight>
     <highlight fg="&green;">^.*\*\*\*STATUS\*\*\*.*</highlight>
+    <highlight fg="&red;">.*Geysers uncontrolled mana suddenly erupt.*</highlight>
 
     <!--- Death Messages --> 
     
@@ -77,10 +79,12 @@
 
     <!-- Character Name Highlights-->
     <highlight fg="&monokai-magenta;">[Ss]arvatt</highlight>
+    <highlight fg="&monokai-magenta;">[Bb]ibbleberry</highlight>
     <highlight fg="&monokai-magenta;">[Ee]ngorged</highlight>
     <highlight fg="&monokai-magenta;">[Cc]hilling</highlight>
     <highlight fg="&monokai-magenta;">[Vv]une</highlight>
     <highlight fg="&monokai-magenta;">[Mm]uten</highlight>
+    <highlight fg="&monokai-magenta;">[Gg]ooseberry</highlight>
     <highlight fg="&royal-purple;">[Ss]ilvryn</highlight>
     <highlight fg="&royal-purple;">[Ee]mbrace</highlight>
     <highlight fg="&royal-purple;">[Ww]arming</highlight>
@@ -95,6 +99,12 @@
     <highlight fg="&royal-purple;">[Tt]empesst</highlight>
     <highlight fg="&royal-purple;">[Ww]hoochie</highlight>
     <highlight fg="&royal-purple;">[Ss]atin</highlight>
+    <highlight fg="&royal-purple;">[Ss]onnettrose</highlight>
+    <highlight fg="&royal-purple;">[Cc]arewyn</highlight>
+    <highlight fg="&royal-purple;">[Ss]erenade</highlight>
+    <highlight fg="&royal-purple;">[Ss]eriona</highlight>
+    <highlight fg="&royal-purple;">[Cc]andlelight</highlight>
+    <highlight fg="&green;">[Mm]iranthe</highlight>
     <highlight fg="&green;">[Tt]hevelar</highlight>
     <highlight fg="&green;">[Ff]lixx</highlight>
     <highlight fg="&green;">[Tt]yesha</highlight>
@@ -127,14 +137,15 @@
     <highlight fg="&yellow;">[Bb]eeya</highlight>
     <highlight fg="&yellow;">[Aa]nnandale</highlight>
     <highlight fg="&yellow;">[Mm]ilanie</highlight>
+    <highlight fg="&yellow;">[Gg]litter</highlight>
     <highlight fg="&yellow;">[Bb]inu</highlight>
-    <highlight fg="&yellow;">[Cc]huno</highlight>
-    <highlight fg="&yellow;">[Mm]elbourne</highlight>
-    <highlight fg="&yellow;">[Ss]sarek</highlight>
+    <highlight fg="&yellow;">[Vv]alkiss</highlight>
+    <highlight fg="&yellow;">[Dd]ankmar</highlight>
     <highlight fg="&yellow;">[Yy]ndass</highlight>
     <highlight fg="&yellow;">[Nn]atarian</highlight>
     <highlight fg="&yellow;">[Nn]arash</highlight>
     <highlight fg="&yellow;">[Nn]atheras</highlight>
+    <highlight fg="&yellow;">[Cc]huno</highlight>
     <highlight fg="&yellow;">[Cc]rannach</highlight>
     <highlight fg="&yellow;">[Jj]onas</highlight>
     <highlight fg="&yellow;">[Rr]iphik</highlight>
@@ -157,6 +168,8 @@
     <highlight fg="&yellow;">[Kk]erizon</highlight>
     <highlight fg="&yellow;">[Aa]radar</highlight>
     <highlight fg="&yellow;">[Ll]eustyin</highlight>
+    <highlight fg="&yellow;">[Gg]linganklee</highlight>
+    <highlight fg="&yellow;">[Dd]artellum</highlight>
 
     <!-- Trolls --> 
     <highlight fg="&red;">[Ff]ahijeck</highlight>
@@ -170,6 +183,7 @@
     <highlight fg="&red;">[Gg]ander</highlight>
     <highlight fg="&red;">[Aa]nnieka</highlight>
     <highlight fg="&red;">[Aa]umaru</highlight>
+    <highlight fg="&red;">[Cc]aidie</highlight>
 
     <!-- Script commands sent to game-->
     <highlight fg='584848'>^\[[\w-]+\]></highlight>
@@ -177,8 +191,8 @@
     <preset id='speech' fg="&yellow;"/>
     <preset id='roomName' fg="&green;"/>
     <preset id='monsterbold' fg="&red;"/>
-    <preset id='familiar' bg='008080'/>
-    <preset id='thoughts' bg='008080'/>
+    <preset id='familiar' bg="&blue;"/>
+    <preset id='thoughts' bg="&blue;"/>
     <!--<key id='alt'>
         <key id='f' macro='something'/>
     </key>-->
@@ -242,11 +256,11 @@
 
         <!-- bottom bar layout -->
         <window class='countdown' top='lines-1' left='8' width='11' height='1' label='rndtime:' value='roundtime' fg='808080,ffffff,ffffff,ffffff' bg='nil,ff0000,0000ff'/>
-        <window class='progress' top='lines-1' left='20' width='&bar-width;' height='1' label='H:' value='health' fg="&white;" bg="&dark-red;"/>
-        <window class='progress' top='lines-1' left='20 + &bar-width; + 1' width='&bar-width;' height='1' label='M:' value='mana' fg="&white;" bg="&blue;"/>
-        <window class='progress' top='lines-1' left='20 + (&bar-width;*2) + 2' width='&bar-width;' height='1' label='Sp:' value='spirit' fg="&white;" bg="&material-purple;"/>
-        <window class='progress' top='lines-1' left='20 + (&bar-width;*3) + 3' width='&bar-width;' height='1' label='St:' value='stamina' fg='&white;' bg='&material-green;'/>
-        <window class='progress' top='lines-1' left='20 + (&bar-width;*4) + 4' width='&bar-width;' height='1' label='C:' value='concentration' fg='&white;' bg='&material-bluegrey;'/>
+        <window class='progress' top='lines-1' left='20' width='&bar-width;' height='1' label='Health:' value='health' fg="&white;" bg="&dark-red;"/>
+        <window class='progress' top='lines-1' left='20 + &bar-width; + 1' width='&bar-width;' height='1' label='Mana:' value='mana' fg="&white;" bg="&blue;"/>
+        <window class='progress' top='lines-1' left='20 + (&bar-width;*2) + 2' width='&bar-width;' height='1' label='Spirit:' value='spirit' fg="&white;" bg="&material-purple;"/>
+        <window class='progress' top='lines-1' left='20 + (&bar-width;*3) + 3' width='&bar-width;' height='1' label='Stam:' value='stamina' fg='&white;' bg='&material-green;'/>
+        <window class='progress' top='lines-1' left='20 + (&bar-width;*4) + 4' width='&bar-width;' height='1' label='Concen:' value='concentration' fg='&white;' bg='&material-bluegrey;'/>
 
         <!-- compass -->
         <window class='indicator' top='lines-3' left='0' height='1' width='1' label='^' value='compass:up' fg='888888,0000ff'/>
