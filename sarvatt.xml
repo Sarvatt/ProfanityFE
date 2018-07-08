@@ -33,6 +33,7 @@
     <highlight fg="&yellow;">^\[drscripts\]</highlight>
     <highlight fg="&blue;">^\[Private(?:To)?\]</highlight>
     <highlight fg="&blue;">^--- Lich:.*</highlight>
+    <highlight fg='88aaff'>%.*?%</highlight>
 
     <highlight fg='808000'>^Roundtime.*</highlight>
     <highlight fg='808000'>^\[Roundtime.*</highlight>
@@ -62,6 +63,7 @@
     <highlight fg="&magenta;">.*ruining your hiding place\.$|^You are no longer hidden\.$|^\s*You are (?:stunned|knocked to the ground).*|^You are unable to remain hidden!$|^You are visible again\.$|^You fade into sight\.$|^You fade into view.*|^You feel drained!$|^You have overextended yourself!$|^You feel yourself going into shock!$</highlight>
     <highlight fg="&green;">^.*\*\*\*STATUS\*\*\*.*</highlight>
     <highlight fg="&red;">.*Geysers uncontrolled mana suddenly erupt.*</highlight>
+    <highlight fg="&red;">.*crushes (his|her) glass orb in his hand like a frail egg shell*</highlight>
 
     <!--- Death Messages --> 
     
@@ -82,7 +84,7 @@
     <highlight fg="&monokai-magenta;">[Bb]ibbleberry</highlight>
     <highlight fg="&monokai-magenta;">[Ee]ngorged</highlight>
     <highlight fg="&monokai-magenta;">[Cc]hilling</highlight>
-    <highlight fg="&monokai-magenta;">[Vv]une</highlight>
+    <highlight fg="&monokai-magenta;">[Hh]eji</highlight>
     <highlight fg="&monokai-magenta;">[Mm]uten</highlight>
     <highlight fg="&monokai-magenta;">[Gg]ooseberry</highlight>
     <highlight fg="&royal-purple;">[Ss]ilvryn</highlight>
@@ -139,8 +141,6 @@
     <highlight fg="&yellow;">[Mm]ilanie</highlight>
     <highlight fg="&yellow;">[Gg]litter</highlight>
     <highlight fg="&yellow;">[Bb]inu</highlight>
-    <highlight fg="&yellow;">[Vv]alkiss</highlight>
-    <highlight fg="&yellow;">[Dd]ankmar</highlight>
     <highlight fg="&yellow;">[Yy]ndass</highlight>
     <highlight fg="&yellow;">[Nn]atarian</highlight>
     <highlight fg="&yellow;">[Nn]arash</highlight>
@@ -170,6 +170,10 @@
     <highlight fg="&yellow;">[Ll]eustyin</highlight>
     <highlight fg="&yellow;">[Gg]linganklee</highlight>
     <highlight fg="&yellow;">[Dd]artellum</highlight>
+    <highlight fg="&yellow;">[Hh]hshikath</highlight>
+    <highlight fg="&yellow;">[Ss]caley</highlight>
+    <highlight fg="&yellow;">[Dd]ijkstra</highlight>
+    <highlight fg="&yellow;">[Jj]onas</highlight>
 
     <!-- Trolls --> 
     <highlight fg="&red;">[Ff]ahijeck</highlight>
@@ -181,9 +185,9 @@
     <highlight fg="&red;">[Aa]rtilius</highlight>
     <highlight fg="&red;">[Ii]ssidos</highlight>
     <highlight fg="&red;">[Gg]ander</highlight>
-    <highlight fg="&red;">[Aa]nnieka</highlight>
     <highlight fg="&red;">[Aa]umaru</highlight>
     <highlight fg="&red;">[Cc]aidie</highlight>
+    <highlight fg="&red;">[Bb]lackro</highlight>
 
     <!-- Script commands sent to game-->
     <highlight fg='584848'>^\[[\w-]+\]></highlight>
