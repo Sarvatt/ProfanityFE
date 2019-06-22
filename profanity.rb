@@ -104,7 +104,7 @@ class ExpWindow < Curses::Window
       addstr(skill)	
       addstr("\n")
 		end
-		refresh
+		noutrefresh
 	end
 end
 
@@ -125,7 +125,7 @@ class PercWindow < Curses::Window
   def add_string(text, line_colors)
     addstr(text)
     addstr("\n")
-    refresh
+    noutrefresh
   end
 
   def clear_spells
